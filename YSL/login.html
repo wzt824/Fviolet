@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	</head>
+	<body>
+		<!--header开始-->
+		<div class="header">
+			<div class="header-top">
+				<p>YSL墨水气垫，哑亮通透，持久无瑕，邂逅秋冬亮泽美肌，点击解锁你的哑亮妆容.</p>
+			</div>
+			<div class="header-center">
+				<div class="center-top">
+					<div class="center-left">
+						<ul>
+							<li>
+								<a href="#">
+									<i class="icon icon-counter-inquiry"></i>
+									<span>专柜查询</span>
+								</a>
+								<div class="header-sub-menu" style="display: none;"></div>
+							</li>
+							<li>
+								<a href="#">
+									<span>客服中心</span>
+								</a>
+								<div class="header-sub-menu" style="display: none;">
+									<div class="header-menu-left">
+										<div class="header-title">
+											<h4>我能帮到您什么？</h4>
+										</div>
+										<ul>
+											<li><a href="#"><span>常见问题</span></a></li>
+											<li><a href="#"><span>订单跟踪</span></a></li>
+											<li><a href="#"><span>订购信息</span></a></li>
+										</ul>
+										<ul>
+											<li><a href="#"><span>选择我们的原因</span></a></li>
+											<li><a href="#"><span>送货与退货</span></a></li>
+										</ul>
+									</div>
+									<div class="header-menu-right">
+										<div class="header-title">
+											<h4>联系我们</h4>
+										</div>
+										<ul>
+											<li><span>400-820-6362(9:00-21:00)</span></li>
+											<li><a href="#"><span>在线咨询</span></a></li>
+											<li><span>我们提供一周七天服务</span></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="center-right">
+						<ul>
+							<li>
+								<a href="#">
+									<span>订阅电子杂志</span>
+								</a>
+								<div class="header-sub-menu" style="display: none;">
+									<div class="header-menu-left">
+										<div class="header-title">
+											<h4>订阅圣罗兰电子杂志</h4>
+										</div>
+										<div class="form-group subscribe">
+											<label class="control-label">请输入您的邮箱</label>
+											<div class="form-input">
+												<input type="text" id="subscribe">
+												<div class="form-btn-box">
+													<a class="btn-black e-subscribe" id="subscription">订阅</a>
+												</div>
+												<div class="msg-block">
+													<span>请输入有效的邮箱</span>
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="checkbox-wrap">
+												<label class="form-checkbox e-checkbox" id="subscribeMessage"><i class="icon icon-checkbox"></i></label>
+												<p>
+													我同意依照本<a target="_blank" href="#">使用条款</a>
+													和<a target="_blank" href="#">隐私政策</a>
+													对我的个人信息进行收集和使用；我已阅读并确认被给予充分机会理解该<a target="_blank" href="#">使用条款</a>
+													和<a target="_blank" href="#">隐私政策</a>的内容。
+												</p>
+											</div>
+		
+											<div class="msg-block">
+												<span>请接受使用条款和隐私政策</span>
+											</div>
+										</div>
+										
+									</div>
+									<div class="header-menu-right">
+										<div class="header-title">
+											<h4>官网专享</h4>
+										</div>
+										<p>立即成为圣罗兰美妆官网会员，尊享VIP独家礼遇。</p>
+										<ul>
+											<li><a href="">查看历史订单</a></li>
+											<li><a href="">官网独家礼赠</a></li>
+											<li><a href="">收藏您喜欢的产品</a></li>
+											<li><a href="">一手新品资讯</a></li>
+										</ul>
+										<a href="#">立即注册</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									<span>登录与注册</span>
+								</a>
+								<div class="header-sub-menu" style="display: none;">
+									<div class="header-menu-left">
+										<div class="header-title">
+											<h4>用户登录</h4>
+										</div>
+										<div class="form-group loginpullname">
+											<div class="form-input">
+												<input type="text" placeholder="请输入邮箱或手机" id="loginpullName" value="">
+												<div class="msg-block">
+													<span>请输入有效的邮箱或手机号码</span>
+												</div>
+											</div>
+										</div>
+										<div class="form-group loginpullpassword">
+											<div class="form-input">
+												<input type="password" placeholder="请输入密码" id="loginpullPassword" value="">
+												<div class="msg-block">
+													<span>请输入正确的密码</span>
+												</div>
+											</div>
+										</div>
+										<div class="form-group rememberPassword">
+											<label class="form-checkbox e-checkbox">
+												<i class="icon icon-checkbox"></i>
+												<span>记住用户名</span>
+												
+											</label>
+											<a href="#">忘记密码</a>
+										</div>
+										<div class="form-btn-box">
+											<a class="btn btn-black e-login" id="loginPullLogin">登录</a>
+										</div>
+										<div class="huo">
+											<span>或</span>
+										</div>
+										<div class="login-other">
+											<ul>
+												<li>
+													<a href="#"><i class="icon icon-login-other-weibo"></i></a>
+													<span>新浪微博</span>
+												</li>
+												<li>
+													<a href=""><i class="icon icon-login-other-weixin"></i></a>
+													<span>微信</span>
+												</li>
+												<li>
+													<a href=""><i class="icon icon-login-other-qq"></i></a>
+													<span>QQ</span>
+												</li>
+												<li>
+													<a href=""><i class="icon icon-login-other-zfb"></i></a>
+													<span>支付宝</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="header-menu-right">
+										<div class="header-title">
+											<h4>官网专享</h4>
+										</div>
+										<p>加入YSL官网的过程很简单, 您只需点击“立即注册”, 即可进入注册过程, 尊享会员专属权益。</p>
+										<ul>
+											<li><a href="">查看历史订单</a></li>
+											<li><a href="">官网独家礼赠</a></li>
+											<li><a href="">收藏您喜欢的产品</a></li>
+											<li><a href="">一手新品资讯</a></li>
+										</ul>
+										<div class="form-btn-box"><a href="#" class="btn btn-black e-register">立即注册</a></div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon icon-shopping-bag"></i>
+									<span>购物袋<i>0</i>件商品</span>
+									<i class="icon icon-down-arrow"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="center-logo">
+					<a href="#"><img src="img/logo@2x.png" alt="" /></a>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="nav">
+					<div class="nav-top">
+						<div class="nav-left">
+							<ul class="nav-left">
+								<li>
+									<a href=""><span>彩妆</span><i class="look look-one"></i></a>
+								</li>
+								<li><a href=""><span>护肤</span><i class="look look-two"></i></a></li>
+								<li><a href=""><span>香水</span><i class="look look-three"></i></a></li>
+								<li><a href=""><span>明星产品</span></a></li>
+								<li><a href=""><span>尊享礼盒</span></a></li>
+								<li><a href=""><span>会员中心</span></a></li>
+								<li><a href=""><span>私人定制服务</span></a></li>
+							</ul>
+						</div>
+						<div class="nav-search">
+							<form action="">
+								<input type="text" name="" class="search-text" placeholder="YSL气垫"/>
+								<a href="" class="search-btn">
+									<i class="icon icon-search"></i>
+								</a>
+							</form>
+						</div>
+					</div>
+					
+					<div class="sub-menu sub-menu-2" >
+						<ul class="menu-two">
+							<li>
+								<a href="/makeup-lips-and-nails" class="title">
+									<span>唇部</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>唇膏</span></a></li>
+										<li><a href="#"><span>唇釉</span></a></li>
+										<li><a href="#"><span>唇油</span></a></li>
+										<li><a href="#"><span>唇颊霜</span></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="/makeup-complexion" class="title">
+									<span>面部</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>明彩笔</span></a></li>
+										<li><a href="#"><span>妆前隔离</span></a></li>
+										<li><a href="#"><span>粉底</span></a></li>
+										<li><a href="#"><span>粉饼</span></a></li>
+										<li><a href="#"><span>蜜粉</span></a></li>
+										<li><a href="#"><span>腮红</span></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="/makeup-eyes" class="title">
+									<span>眼部</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>睫毛膏</span></a></li>
+										<li><a href="#"><span>眼线</span></a></li>
+										<li><a href="#"><span>眉笔</span></a></li>
+										<li><a href="#"><span>眼影</span></a></li>
+										<li><a href="#"><span>蜜粉</span></a></li>
+										<li><a href="#"><span>腮红</span></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="title">
+									<span>甲油</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="title">
+									<span>套装及工具</span>
+								</a>
+							</li>
+						</ul>
+					
+					<!-- 这里是cms内容！！！ -->
+						
+						<div class="nav-sub-menu-bottom">
+							<div class="products-recommended">
+								<div class="left">
+									<a href="#">
+										
+										<img src="img/menu01.jpg" alt="" />
+										<span class="tag">热卖</span>
+									</a>
+								</div>
+								<div class="right">
+									<h4>
+										<a href="#">圣罗兰纯口红 </a>
+									</h4>
+									<p>
+										<a href="#">赋予双唇丝缎般细腻与浓郁的色泽质感</a>
+									</p>
+									<a class="learn-more" href="#">
+										<span>了解详情</span>
+									</a>
+								</div>
+							</div>
+							<div class="products-recommended">
+								<div class="left">
+									<a href="#">
+										<span class="tag">新品</span>
+										<img src="img/det05.jpg" alt="" />
+									</a>
+								</div>
+								<div class="right">
+									<h4>
+										<a href="#">圣罗兰墨水气垫 </a>
+									</h4>
+									<p>
+										<a href="#">哑亮通透.持久无瑕</a>
+									</p>
+									<a class="learn-more" href="#">
+										<span>了解详情</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="sub-menu sub-menu-2" >
+						<ul class="menu-two">
+							<li>
+								<a href="/makeup-lips-and-nails" class="title">
+									<span>按产品分类</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>隔离防晒</span></a></li>
+										<li><a href="#"><span>卸妆清洁</span></a></li>
+										<li><a href="#"><span>爽肤</span></a></li>
+										<li><a href="#"><span>精华</span></a></li>
+										<li><a href="#"><span>面霜/乳液</span></a></li>
+										<li><a href="#"><span>眼唇护理</span></a></li>
+										<li><a href="#"><span>护肤工具</span></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="/makeup-eyes" class="title">
+									<span>按功能分类</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>Y形轮廓</span></a></li>
+										<li><a href="#"><span>全效青春</span></a></li>
+										<li><a href="#"><span>提亮美白</span></a></li>
+										<li><a href="#"><span>淡斑护肤</span></a></li>
+										<li><a href="#"><span>至臻奢护</span></a></li>
+										<li><a href="#"><span>基础亮颜</span></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="/makeup-complexion" class="title">
+									<span>按系列分类</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>纯白系列</span></a></li>
+										<li><a href="#"><span>妍活青春</span></a></li>
+										<li><a href="#"><span>臻透亮白</span></a></li>
+										<li><a href="#"><span>藏金奢妍</span></a></li>
+										<li><a href="#"><span>超模绝密</span></a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					
+					<!-- 这里是cms内容！！！ -->
+						
+						<div class="nav-sub-menu-bottom">
+							<div class="products-recommended">
+								<div class="left">
+									<a href="#">
+										<span class="tag">人气</span>
+										<img src="img/menu03.jpg" alt="" />
+									</a>
+								</div>
+								<div class="right">
+									<h4>
+										<a href="#">超模绝密亮肌露  </a>
+									</h4>
+									<p>
+										<a href="#">平滑肌肤，长效水润，妆容持久无瑕</a>
+									</p>
+									<a class="learn-more" href="#">
+										<span>了解详情</span>
+									</a>
+								</div>
+							</div>
+							<div class="products-recommended">
+								<div class="left">
+									<a href="#">
+										<span class="tag">热卖</span>
+										<img src="img/menu04.jpg" alt="" />
+									</a>
+								</div>
+								<div class="right">
+									<h4>
+										<a href="#">亮颜眼霜 3合1明眸眼霜 </a>
+									</h4>
+									<p>
+										<a href="#">集滋润，眼妆打底，睫毛滋养于一支黑金前卫精巧管身</a>
+									</p>
+									<a class="learn-more" href="#">
+										<span>了解详情</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="sub-menu sub-menu-2" >
+						<ul class="menu-two">
+							<li>
+								<a href="/makeup-lips-and-nails" class="title">
+									<span>女士香水</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>反转巴黎香水</span></a></li>
+										<li><a href="#"><span>鸦片香水</span></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="/makeup-complexion" class="title">
+									<span>男士香水</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>天之骄子男士香水</span></a></li>
+										<li><a href="#"><span>暗夜男士香水</span></a></li>
+										<li><a href="#"><span>Y男士香水</span></a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					
+					<!-- 这里是cms内容！！！ -->
+						
+						<div class="nav-sub-menu-bottom">
+							<div class="products-recommended">
+								<div class="left">
+									<a href="#">
+										<span class="tag">热卖</span>
+										<img src="img/menu05.jpg" alt="" />
+									</a>
+								</div>
+								<div class="right">
+									<h4>
+										<a href="#">反转巴黎香水 </a>
+									</h4>
+									<p>
+										<a href="#"> 爱就要天翻地覆</a>
+									</p>
+									<a class="learn-more" href="#">
+										<span>了解详情</span>
+									</a>
+								</div>
+							</div>
+							<div class="products-recommended">
+								<div class="left">
+									<a href="#">
+										<span class="tag">人气</span>
+										<img src="img/menu06.jpg" alt="" />
+									</a>
+								</div>
+								<div class="right">
+									<h4>
+										<a href="#">黑鸦片经典香水  </a>
+									</h4>
+									<p>
+										<a href="#">重新诠释大胆无畏的摇滚风格</a>
+									</p>
+									<a class="learn-more" href="#">
+										<span>了解详情</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			
+		</div>
+		<!--header结束-->
+		
+		
+		<div class="wriper">
+			<section class="container">
+				<article class="article-back">
+					<ul>
+						<li><a href="index.html">首页</a></li>>
+						<li><a href="">我的账户</a></li>
+					</ul>
+				</article>
+				<article class="article-login">
+					<div class="center-wriper">
+						<div class="login-left">
+							<h4>登录</h4>
+							<form class="loginRow">
+								<div class="form-group userName">
+									<label class="control-label">您的用户名<span>*</span></label>
+									<div class="form-input">
+										<input type="text" id="username" name="username" value="">
+										<div class="msg-block">
+											<span>请输入用户名</span>
+										</div>
+									</div>
+								</div>
+								<div class="form-group userPass">
+									<label class="control-label">密码<span>*</span></label>
+									<div class="form-input">
+										<input type="password" id="userpass" name="userpass" value="">
+										<div class="msg-block">
+											<span>请输入密码</span>
+										</div>
+									</div>
+								</div>
+								<div class="form-group rememberPass">
+									<label class="form-checkbox ">
+										<input type="checkbox" name="" class="remname" />
+										<span>记住用户名</span>
+									</label>
+									<a href="#">
+										<span>忘记密码？</span>
+									</a>
+									<p class="login-error">对不起，登录失败。请检查你是否输入有误，请再试一遍。</p>
+								</div>
+								<input type="submit" name="login" id="login" value="登录" class="btn btn-black"/>
+								<!--<div class="btn-box">
+									<a href="#" class="btn btn-black" id="login">登录</a>
+								</div>-->
+							</form>
+							
+							<div class="huo">
+								<span>或</span>
+							</div>
+							<div class="login-other">
+								<p>使用官方合作账号登录</p>
+								<ul>
+									<li>
+										<a href=""><i class="icon icon-login-other-weixin"></i></a>
+										<span>微信</span>
+									</li>
+									<li>
+										<a href=""><i class="icon icon-login-other-qq"></i></a>
+										<span>QQ</span>
+									</li>
+									<li>
+										<a href="#"><i class="icon icon-login-other-weibo"></i></a>
+										<span>新浪</span>
+									</li>
+									<li>
+										<a href=""><i class="icon icon-login-other-zfb"></i></a>
+										<span>支付宝</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="login-right">
+							<div class="customer-member">
+								<h4>注册成为圣罗兰官网会员即可尊享</h4>
+								<div class="text-box">
+									<h3>获取最新商品信息</h3>
+									<p>已注册邮箱将第一时间获取特价促销、<br>新品发布、礼盒套装及更多会员专享资讯。</p>
+								</div>
+								<div class="text-box">
+									<h3>订单历史记录</h3>
+									<p>查看您的订单详情，及时了解物流配送状态。</p>
+								</div>
+								<div class="text-box">
+									<h3>生日礼遇</h3>
+									<p>完善个人生日信息，生日当月发现惊喜，<br>届时请查看已注册邮箱。</p>
+								</div>
+								<div class="text-box">
+									<h3>快速购买通道</h3>
+									<p>我们会在您的账户中保存历史账单和<br>配送信息，使您方便快捷地购物。<br><a href="http://policy.lorealchina.com/privacypolicy">(了解更多隐私政策)</a></p>
+								</div>
+								<div class="btn-box">
+									<a href="#" class="btn btn-black">创建账户</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article class="article-right-menu">
+					<div class="customber-service">
+						<p>如果有任何问题，请联系我们</p>
+						<p><i class="icon icon-hotline"></i><span>400-820-6362</span></p>
+						<p>（周一至周日 9:00-21:00）</p>
+						<p>联系客服下单 惊喜送礼</p>
+						<div class="btn-box">
+							<a href="#" class="btn btn-black">在线咨询</a>
+						</div>
+					</div>
+				</article>
+			</section>
+		</div>
+		
+		<!--back-top-->
+		<div class="back-box">
+			<div class="online">
+				<a href="#">
+					<i class="icon icon-online"></i>
+					<span>在线咨询</span>
+				</a>
+			</div>
+			<div class="back-top">
+				<a href="#">
+					<i class="icon icon-back"></i>
+					<span>TOP</span>
+				</a>
+			</div>
+		</div>
+		
+		<!--footer-->
+		<div class="footer">
+			<div class="footer-container">
+				<div class="footer-top">
+					<ul>
+						<li>
+							<label>
+								<i class="icon icon-product"></i>
+							</label>
+							<span>100%官方正品保证</span>
+						</li>
+						<li>
+							<label>
+								<i class="icon icon-style"></i>
+							</label>
+							<span>支持多种支付方式</span>
+						</li>
+						<li>
+							<label>
+								<i class="icon icon-gift"></i>
+							</label>
+							<span>专享官网特惠礼遇</span>
+						</li>
+						<li>
+							<label>
+								<i class="icon icon-our"></i>
+							</label>
+							<span>
+								联系我们<br />电话400-820-6362
+							</span>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-classify">
+					<div class="footer-classify-content">
+						<h4><a href="#">彩妆</a></h4>
+						<ul>
+							<li><a href="#">唇部</a></li>
+							<li><a href="#">面部</a></li>
+							<li><a href="#">眼部</a></li>
+							<li><a href="#">甲油</a></li>
+							<li><a href="#">套装及工具</a></li>
+						</ul>
+					</div>
+					<div class="footer-classify-content">
+						<h4><a href="#">护肤</a></h4>
+						<ul>
+							<li><a href="#">按产品分类</a></li>
+							<li><a href="#">按功能分类</a></li>
+							<li><a href="#">按系列分类</a></li>
+						</ul>
+					</div>
+					<div class="footer-classify-content">
+						<h4><a href="#">香水</a></h4>
+						<ul>
+							<li><a href="#">男士香水</a></li>
+							<li><a href="#">女士香水</a></li>
+						</ul>
+					</div>
+					<div class="footer-classify-content">
+						<h4><a href="#">尊享礼盒</a></h4>
+					</div>
+					<div class="footer-classify-content">
+						<h4><a href="#">订阅电子杂志</a></h4>
+						<form action="">
+							<input type="text" name="" id="" value="" class=""/>
+							<a href="#" class="btn-ok">OK</a>
+						</form>
+						<div class="footer-contact">
+							<div class="follow-us">
+								<p>关注我们</p>
+								<ul>
+									<li>
+										<a href="#"><i class="icon icon-weibo"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon icon-weixin"></i></a>
+									</li>
+								</ul>
+							</div>
+							<div class="contact-us">
+								<p>联系我们</p>
+								<p>电话：400-820-6362</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h1 class="footer-logo">
+					<a href="#">
+						<img src="img/footer-logo.png" alt="" />
+					</a>
+				</h1>
+				<div class="footer-bottom">
+					<ul class="bottom-top">
+						<li><span>© 欧莱雅（中国）有限公司</span></li>
+						<li
+							<i class="icon icon-footo"></i>
+							<a href="#"><span>中国工商  </span></a>
+							<a href="#"><span> 沪ICP备08100043号-28&nbsp; </span></a>
+						</li>
+						<li>
+							<i class="icon icon-foott"></i>
+							<a href="#"><span>沪公网安备 31010602001529号</span></a>
+						</li>
+					</ul>
+					<div class="bottom-bot">
+						<ul>
+							<li><a href="#">Cookies政策</a></li>
+							<li><a href="#">使用条款</a></li>
+							<li><a href="#">隐私政策</a></li>
+							<li><a href="#">网站地图</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/getStyle.js" ></script>
+<script type="text/javascript" src="js/tools.js" ></script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="js/public.js" ></script>
+
+
+<script type="text/javascript">
+	
+//	$(function(){
+//		$(".form-input input").focus(function(){
+//			$(this).css({"border":"1px solid black"})
+//		})
+//		$(".form-input input").blur(function(){
+//			$(this).css({"border":"1px solid red"});
+//			$(this).nextAll(".msg-block").css({"display":"block","color":"red"})
+//			
+//		})
+//	})
+	var z_user = 0;
+	//用户名不能为空
+	$("#username").focus(function(){
+		$(this).css({"border":"1px solid black"})
+		$(this).nextAll(".msg-block").css({"display":"none"})
+	}).blur(function(){
+		let valname = $(this).val();
+		if(valname==""){
+			$(this).css({"border":"1px solid red"});
+			$(this).nextAll(".msg-block").css({"display":"block","color":"red"})
+			z_user = 0;
+		}
+		z_user = 1;
+	})
+	//密码不能为空
+	var z_pass = 0;
+	$("#userpass").focus(function(){
+		$(this).css({"border":"1px solid black"})
+		$(this).nextAll(".msg-block").css({"display":"none"})
+	}).blur(function(){
+		let valpass = $(this).val();
+		if(valpass==""){
+			$(this).css({"border":"1px solid red"});
+			$(this).nextAll(".msg-block").css({"display":"block","color":"red"});
+			z_pass = 0;
+		}
+		z_pass = 1;
+	})
+	
+	
+	
+	
+	
+	var eve=event||window.event;
+	$(".loginRow").submit(function(eve){
+		if(!eve.isDefaultPrevented()){
+			eve.preventDefault();
+		}
+		if(z_pass==1 && z_user==1){
+			$.ajax({
+				type:"post",
+				url:"regLogin.php",
+				async:true,
+				data:$(".loginRow").serialize(),
+				success:function(response){
+					if(response==1){
+						
+//						$(".success").hide();
+//						$(".true-success").show();
+//						$(".sucName").html("欢迎您"+username);
+//						if($(".remname").is(":checked")){
+//							$.cookie("username",$('#username').val(),{expires:7,path:"/"});
+//						}else{
+//							$.cookie("username",$('#username').val(),{path:"/"})
+//						}
+
+
+						var exp = new Date();
+						exp.setTime(exp.getTime() + 60 * 1000 * 60 * 24); //24小时
+						document.cookie = "username=" + $('#username').val() + ";expires=" + exp.toGMTString();
+						document.cookie = "userpass=" + $('#userpass').val() + ";expires=" + exp.toGMTString();
+//						alert("你好")
+						location.href = 'index.html';
+						
+					}else if(response==0){
+						$(".login-error").show();
+					}
+				}
+			});
+		}
+		
+	})
+</script>

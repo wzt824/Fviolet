@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/details.css"/>
+	</head>
+	<body>
+		<!--header开始-->
+		<div class="header">
+			<div class="header-top">
+				<p>YSL墨水气垫，哑亮通透，持久无瑕，邂逅秋冬亮泽美肌，点击解锁你的哑亮妆容.</p>
+			</div>
+			<div class="header-center">
+				<div class="center-top">
+					<div class="center-left">
+						<ul>
+							<li>
+								<a href="#">
+									<i class="icon icon-counter-inquiry"></i>
+									<span>专柜查询</span>
+								</a>
+								<div class="header-sub-menu" style="display: none;"></div>
+							</li>
+							<li>
+								<a href="#">
+									<span>客服中心</span>
+								</a>
+								<div class="header-sub-menu" style="display: none;">
+									<div class="header-menu-left">
+										<div class="header-title">
+											<h4>我能帮到您什么？</h4>
+										</div>
+										<ul>
+											<li><a href="#"><span>常见问题</span></a></li>
+											<li><a href="#"><span>订单跟踪</span></a></li>
+											<li><a href="#"><span>订购信息</span></a></li>
+										</ul>
+										<ul>
+											<li><a href="#"><span>选择我们的原因</span></a></li>
+											<li><a href="#"><span>送货与退货</span></a></li>
+										</ul>
+									</div>
+									<div class="header-menu-right">
+										<div class="header-title">
+											<h4>联系我们</h4>
+										</div>
+										<ul>
+											<li><span>400-820-6362(9:00-21:00)</span></li>
+											<li><a href="#"><span>在线咨询</span></a></li>
+											<li><span>我们提供一周七天服务</span></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="center-right">
+						<ul>
+							<li>
+								<a href="#">
+									<span>订阅电子杂志</span>
+								</a>
+								<div class="header-sub-menu" style="display: none;">
+									<div class="header-menu-left">
+										<div class="header-title">
+											<h4>订阅圣罗兰电子杂志</h4>
+										</div>
+										<div class="form-group subscribe">
+											<label class="control-label">请输入您的邮箱</label>
+											<div class="form-input">
+												<input type="text" id="subscribe">
+												<div class="form-btn-box">
+													<a class="btn-black e-subscribe" id="subscription">订阅</a>
+												</div>
+												<div class="msg-block">
+													<span>请输入有效的邮箱</span>
+												</div>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="checkbox-wrap">
+												<label class="form-checkbox e-checkbox" id="subscribeMessage"><i class="icon icon-checkbox"></i></label>
+												<p>
+													我同意依照本<a target="_blank" href="#">使用条款</a>
+													和<a target="_blank" href="#">隐私政策</a>
+													对我的个人信息进行收集和使用；我已阅读并确认被给予充分机会理解该<a target="_blank" href="#">使用条款</a>
+													和<a target="_blank" href="#">隐私政策</a>的内容。
+												</p>
+											</div>
+		
+											<div class="msg-block">
+												<span>请接受使用条款和隐私政策</span>
+											</div>
+										</div>
+										
+									</div>
+									<div class="header-menu-right">
+										<div class="header-title">
+											<h4>官网专享</h4>
+										</div>
+										<p>立即成为圣罗兰美妆官网会员，尊享VIP独家礼遇。</p>
+										<ul>
+											<li><a href="">查看历史订单</a></li>
+											<li><a href="">官网独家礼赠</a></li>
+											<li><a href="">收藏您喜欢的产品</a></li>
+											<li><a href="">一手新品资讯</a></li>
+										</ul>
+										<a href="#">立即注册</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									<span>登录与注册</span>
+								</a>
+								<div class="header-sub-menu" style="display: none;">
+									<div class="header-menu-left">
+										<div class="header-title">
+											<h4>用户登录</h4>
+										</div>
+										<div class="form-group loginpullname">
+											<div class="form-input">
+												<input type="text" placeholder="请输入邮箱或手机" id="loginpullName" value="">
+												<div class="msg-block">
+													<span>请输入有效的邮箱或手机号码</span>
+												</div>
+											</div>
+										</div>
+										<div class="form-group loginpullpassword">
+											<div class="form-input">
+												<input type="password" placeholder="请输入密码" id="loginpullPassword" value="">
+												<div class="msg-block">
+													<span>请输入正确的密码</span>
+												</div>
+											</div>
+										</div>
+										<div class="form-group rememberPassword">
+											<label class="form-checkbox e-checkbox">
+												<i class="icon icon-checkbox"></i>
+												<span>记住用户名</span>
+												
+											</label>
+											<a href="#">忘记密码</a>
+										</div>
+										<div class="form-btn-box">
+											<a class="btn btn-black e-login" id="loginPullLogin">登录</a>
+										</div>
+										<div class="huo">
+											<span>或</span>
+										</div>
+										<div class="login-other">
+											<ul>
+												<li>
+													<a href="#"><i class="icon icon-login-other-weibo"></i></a>
+													<span>新浪微博</span>
+												</li>
+												<li>
+													<a href=""><i class="icon icon-login-other-weixin"></i></a>
+													<span>微信</span>
+												</li>
+												<li>
+													<a href=""><i class="icon icon-login-other-qq"></i></a>
+													<span>QQ</span>
+												</li>
+												<li>
+													<a href=""><i class="icon icon-login-other-zfb"></i></a>
+													<span>支付宝</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="header-menu-right">
+										<div class="header-title">
+											<h4>官网专享</h4>
+										</div>
+										<p>加入YSL官网的过程很简单, 您只需点击“立即注册”, 即可进入注册过程, 尊享会员专属权益。</p>
+										<ul>
+											<li><a href="">查看历史订单</a></li>
+											<li><a href="">官网独家礼赠</a></li>
+											<li><a href="">收藏您喜欢的产品</a></li>
+											<li><a href="">一手新品资讯</a></li>
+										</ul>
+										<div class="form-btn-box"><a href="#" class="btn btn-black e-register">立即注册</a></div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon icon-shopping-bag"></i>
+									<span>购物袋<i>0</i>件商品</span>
+									<i class="icon icon-down-arrow"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="center-logo">
+					<a href="#"><img src="img/logo@2x.png" alt="" /></a>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="nav">
+					<div class="nav-top">
+						<div class="nav-left">
+							<ul class="nav-left">
+								<li>
+									<a href=""><span>彩妆</span><i class="look look-one"></i></a>
+								</li>
+								<li><a href=""><span>护肤</span><i class="look look-two"></i></a></li>
+								<li><a href=""><span>香水</span><i class="look look-three"></i></a></li>
+								<li><a href=""><span>明星产品</span></a></li>
+								<li><a href=""><span>尊享礼盒</span></a></li>
+								<li><a href=""><span>会员中心</span></a></li>
+								<li><a href=""><span>私人定制服务</span></a></li>
+							</ul>
+						</div>
+						<div class="nav-search">
+							<form action="">
+								<input type="text" name="" class="search-text" placeholder="YSL气垫"/>
+								<a href="" class="search-btn">
+									<i class="icon icon-search"></i>
+								</a>
+							</form>
+						</div>
+					</div>
+					
+					<div class="sub-menu sub-menu-2" >
+						<ul class="menu-two">
+							<li>
+								<a href="/makeup-lips-and-nails" class="title">
+									<span>唇部</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>唇膏</span></a></li>
+										<li><a href="#"><span>唇釉</span></a></li>
+										<li><a href="#"><span>唇油</span></a></li>
+										<li><a href="#"><span>唇颊霜</span></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="/makeup-complexion" class="title">
+									<span>面部</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>明彩笔</span></a></li>
+										<li><a href="#"><span>妆前隔离</span></a></li>
+										<li><a href="#"><span>粉底</span></a></li>
+										<li><a href="#"><span>粉饼</span></a></li>
+										<li><a href="#"><span>蜜粉</span></a></li>
+										<li><a href="#"><span>腮红</span></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="/makeup-eyes" class="title">
+									<span>眼部</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>睫毛膏</span></a></li>
+										<li><a href="#"><span>眼线</span></a></li>
+										<li><a href="#"><span>眉笔</span></a></li>
+										<li><a href="#"><span>眼影</span></a></li>
+										<li><a href="#"><span>蜜粉</span></a></li>
+										<li><a href="#"><span>腮红</span></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="title">
+									<span>甲油</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="title">
+									<span>套装及工具</span>
+								</a>
+							</li>
+						</ul>
+					
+					<!-- 这里是cms内容！！！ -->
+						
+						<div class="nav-sub-menu-bottom">
+							<div class="products-recommended">
+								<div class="left">
+									<a href="#">
+										
+										<img src="img/menu01.jpg" alt="" />
+										<span class="tag">热卖</span>
+									</a>
+								</div>
+								<div class="right">
+									<h4>
+										<a href="#">圣罗兰纯口红 </a>
+									</h4>
+									<p>
+										<a href="#">赋予双唇丝缎般细腻与浓郁的色泽质感</a>
+									</p>
+									<a class="learn-more" href="#">
+										<span>了解详情</span>
+									</a>
+								</div>
+							</div>
+							<div class="products-recommended">
+								<div class="left">
+									<a href="#">
+										<span class="tag">新品</span>
+										<img src="img/det05.jpg" alt="" />
+									</a>
+								</div>
+								<div class="right">
+									<h4>
+										<a href="#">圣罗兰墨水气垫 </a>
+									</h4>
+									<p>
+										<a href="#">哑亮通透.持久无瑕</a>
+									</p>
+									<a class="learn-more" href="#">
+										<span>了解详情</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="sub-menu sub-menu-2" >
+						<ul class="menu-two">
+							<li>
+								<a href="/makeup-lips-and-nails" class="title">
+									<span>按产品分类</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>隔离防晒</span></a></li>
+										<li><a href="#"><span>卸妆清洁</span></a></li>
+										<li><a href="#"><span>爽肤</span></a></li>
+										<li><a href="#"><span>精华</span></a></li>
+										<li><a href="#"><span>面霜/乳液</span></a></li>
+										<li><a href="#"><span>眼唇护理</span></a></li>
+										<li><a href="#"><span>护肤工具</span></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="/makeup-eyes" class="title">
+									<span>按功能分类</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>Y形轮廓</span></a></li>
+										<li><a href="#"><span>全效青春</span></a></li>
+										<li><a href="#"><span>提亮美白</span></a></li>
+										<li><a href="#"><span>淡斑护肤</span></a></li>
+										<li><a href="#"><span>至臻奢护</span></a></li>
+										<li><a href="#"><span>基础亮颜</span></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="/makeup-complexion" class="title">
+									<span>按系列分类</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>纯白系列</span></a></li>
+										<li><a href="#"><span>妍活青春</span></a></li>
+										<li><a href="#"><span>臻透亮白</span></a></li>
+										<li><a href="#"><span>藏金奢妍</span></a></li>
+										<li><a href="#"><span>超模绝密</span></a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					
+					<!-- 这里是cms内容！！！ -->
+						
+						<div class="nav-sub-menu-bottom">
+							<div class="products-recommended">
+								<div class="left">
+									<a href="#">
+										<span class="tag">人气</span>
+										<img src="img/menu03.jpg" alt="" />
+									</a>
+								</div>
+								<div class="right">
+									<h4>
+										<a href="#">超模绝密亮肌露  </a>
+									</h4>
+									<p>
+										<a href="#">平滑肌肤，长效水润，妆容持久无瑕</a>
+									</p>
+									<a class="learn-more" href="#">
+										<span>了解详情</span>
+									</a>
+								</div>
+							</div>
+							<div class="products-recommended">
+								<div class="left">
+									<a href="#">
+										<span class="tag">热卖</span>
+										<img src="img/menu04.jpg" alt="" />
+									</a>
+								</div>
+								<div class="right">
+									<h4>
+										<a href="#">亮颜眼霜 3合1明眸眼霜 </a>
+									</h4>
+									<p>
+										<a href="#">集滋润，眼妆打底，睫毛滋养于一支黑金前卫精巧管身</a>
+									</p>
+									<a class="learn-more" href="#">
+										<span>了解详情</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="sub-menu sub-menu-2" >
+						<ul class="menu-two">
+							<li>
+								<a href="/makeup-lips-and-nails" class="title">
+									<span>女士香水</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>反转巴黎香水</span></a></li>
+										<li><a href="#"><span>鸦片香水</span></a></li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="/makeup-complexion" class="title">
+									<span>男士香水</span>
+								</a>
+								<!-- 三级菜单 -->
+								<div class="sub-menu sub-menu-3">
+									<ul class="menu-three">
+										<li><a href="#"><span>天之骄子男士香水</span></a></li>
+										<li><a href="#"><span>暗夜男士香水</span></a></li>
+										<li><a href="#"><span>Y男士香水</span></a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					
+					<!-- 这里是cms内容！！！ -->
+						
+						<div class="nav-sub-menu-bottom">
+							<div class="products-recommended">
+								<div class="left">
+									<a href="#">
+										<span class="tag">热卖</span>
+										<img src="img/menu05.jpg" alt="" />
+									</a>
+								</div>
+								<div class="right">
+									<h4>
+										<a href="#">反转巴黎香水 </a>
+									</h4>
+									<p>
+										<a href="#"> 爱就要天翻地覆</a>
+									</p>
+									<a class="learn-more" href="#">
+										<span>了解详情</span>
+									</a>
+								</div>
+							</div>
+							<div class="products-recommended">
+								<div class="left">
+									<a href="#">
+										<span class="tag">人气</span>
+										<img src="img/menu06.jpg" alt="" />
+									</a>
+								</div>
+								<div class="right">
+									<h4>
+										<a href="#">黑鸦片经典香水  </a>
+									</h4>
+									<p>
+										<a href="#">重新诠释大胆无畏的摇滚风格</a>
+									</p>
+									<a class="learn-more" href="#">
+										<span>了解详情</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--header结束-->
+		
+		<!--商品详情开始-->
+		
+		<section class="container">
+			<!--小导航-->
+			<article class="article art-one">
+				<div class="small-daohang">
+					<ul class="list">
+						<li><a href="index.html">首页</a></li>
+						<li><i class="icon icon-right-small"></i></li>
+						<li><a href="#">彩妆</a></li>
+						<li><i class="icon icon-right-small"></i></li>
+						<li><a href="#">唇部</a></li>
+						<li><i class="icon icon-right-small"></i></li>
+						<li><a href="#">唇膏</a></li>
+						<li><i class="icon icon-right-small"></i></li>
+						<li><a href="#">圣罗兰莹亮醇魅唇膏</a></li>
+						<li><i class="icon icon-right-small"></i></li>
+					</ul>
+				</div>
+			</article>
+			<!--商品主要介绍-->
+			
+			<article class="article art-two">
+				
+				<!--放大图片-->
+				<div class="product-left">
+					<div class="small-clickbox">
+						<div class="small-con">
+							<ul class="small-ul">
+								<li class="is-active"><img src="img/sm01.jpg"/></li>
+								<li><img src="img/sm02.jpg"/></li>
+							</ul>
+						</div>
+					</div>
+					<div class="main-box">
+						<div class="wish-list">
+							<i class="icon icon-add-wish"></i>
+							<i class="icon icon-added-wish"></i>
+						</div>
+						<div class="main-con">
+							<div class="main-con-sm">
+								<div class="big-img now-active">
+									<img src="img/big01.jpg"/>
+								</div>
+								<div class="big-img">
+									<img src="img/big02.jpg"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--右边介绍-->
+				<div class="product-right">
+					<div class="product-top">
+						<div class="product-tit">
+							<h2 class="en-tit">ROUGE VOLUPTÉ SHINE</h2>
+							<h1>圣罗兰莹亮纯魅唇膏</h1>
+						</div>
+						<div class="product-star">
+							<div class="star-wrap">
+								<div class="star-content">
+									<i class="icon icon-star-black"></i>
+								</div>
+								<i class="icon icon-star-gray"></i>
+							</div>
+							<div class="star-msg">
+								<a class="comment">202条评论</a>
+							</div>
+						</div>
+					</div>
+					<div class="product-direction">
+						<p>
+							YSL圣罗兰莹亮纯魅唇膏富含6种美唇精粹滋润呵护，以水光般莹亮色彩亲吻双唇
+							<span><a class="product-detail">查看详情</a></span>
+						</p>
+					</div>
+					<div class="product-color">
+						<div class="product-color-list">
+							<div class="goods-color-container">
+								<ul class="goods-color-ul">
+									<li class="is-choose"><span><img src="img/1527669457833.jpg"/></span></li>
+									<li><span><img src="img/1527669799142.jpg"/></span></li>
+									<li><span><img src="img/1530257013338.jpg"/></span></li>
+									<li><span><img src="img/1527669732474.jpg"/></span></li>
+									<li><span><img src="img/1527669505796.jpg"/></span></li>
+									<li><span><img src="img/1527669572966.jpg"/></span></li>
+									<li><span><img src="img/1527669719421.jpg"/></span></li>
+									<li><span><img src="img/1530257013338.jpg"/></span></li>
+									<li><span><img src="img/1527669564258.jpg"/></span></li>
+									<li><span><img src="img/1527669457833.jpg"/></span></li>
+									<li><span><img src="img/1527669799142.jpg"/></span></li>
+									<li><span><img src="img/1530257013338.jpg"/></span></li>
+									<li><span><img src="img/1527669732474.jpg"/></span></li>
+									<li><span><img src="img/1527669505796.jpg"/></span></li>
+									<li><span><img src="img/1527669572966.jpg"/></span></li>
+									<li><span><img src="img/1527669719421.jpg"/></span></li>
+									<li><span><img src="img/1530257013338.jpg"/></span></li>
+									<li><span><img src="img/1527669564258.jpg"/></span></li>
+									<li><span><img src="img/1527669457833.jpg"/></span></li>
+									<li><span><img src="img/1527669799142.jpg"/></span></li>
+									<li><span><img src="img/1530257013338.jpg"/></span></li>
+									<li><span><img src="img/1527669732474.jpg"/></span></li>
+									<li><span><img src="img/1527669505796.jpg"/></span></li>
+									<li><span><img src="img/1527669572966.jpg"/></span></li>
+									<li><span><img src="img/1527669719421.jpg"/></span></li>
+									<li><span><img src="img/1530257013338.jpg"/></span></li>
+									<li><span><img src="img/1527669564258.jpg"/></span></li>
+									
+								</ul>
+							</div>
+							<div class="goods-color-btn-left"><i class="icon icon-goods-color-left"></i></div>
+							<div class="goods-color-btn-right"><i class="icon icon-goods-color-right"></i></div>
+						</div>
+						<div class="product-color-select">
+							<div class="dropdown is-color">
+								<a class="btn">
+									<span class="dropdown-text">
+										<span class="txt-one"><img src="img/1527669457833.jpg" alt=""></span>
+										<span class="txt-two">#67（新色）</span>
+									</span>
+									<span class="dropdown-icon"><i class="icon icon-caret"></i></span>
+								</a>
+								<div class="sub-menu">
+									<div class="viewport">
+										<div class="overview">
+											<ul>
+												<li>
+													<a>
+														<span><img src="img/1527669457833.jpg" alt=""></span>
+														<span>#12 红粉派对</span>
+													</a>
+												</li>
+												<li>
+													<a>
+														<span><img src="img/1527669799142.jpg" alt=""></span>
+														<span>#43 唇印 (热卖)</span>
+													</a>
+												</li>
+												<li>
+													<a>
+														<span><img src="img/1530257013338.jpg" alt=""></span>
+														<span>#14 一见倾心(热卖)</span>
+													</a>
+												</li>
+												<li>
+													<a>
+														<span><img src="img/1527669732474.jpg" alt=""></span>
+														<span>#04 危情禁果</span>
+													</a>
+												</li>
+												<li>
+													<a>
+														<span><img src="img/1527669505796.jpg" alt=""></span>
+														<span>#05 浮生若梦</span>
+													</a>
+												</li>
+												<li>
+													<a>
+														<span><img src="img/1527669572966.jpg" alt=""></span>
+														<span>#06 情窦初开</span>
+													</a>
+												</li>
+												<li>
+													<a>
+														<span><img src="img/1527669719421.jpg" alt=""></span>
+														<span>#08 纯真梦幻</span>
+													</a>
+												</li>
+												<li>
+													<a>
+														<span><img src="img/1531130213023.png" alt=""></span>
+														<span>#09 裸色暗恋</span>
+													</a>
+												</li>
+												<li>
+													<a>
+														<span><img src="img/1527669564258.jpg" alt=""></span>
+														<span>#13 邂逅巴黎</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-service">
+							<div class="form-group">
+								<label class="form-checkbox">
+									<i class="icon icon-checkbox"></i>
+									<span>专属刻字</span>
+								</label>
+							</div>
+                      		<p>勾选后点击加入购物袋，即享专属定制刻字服务。</p>
+                      		<p class="gift-info" style="color:black;">刻字服务为80元/次，如果每笔订单满800元，可尊享免费刻字服务。刻字工艺需耗时5工作日，最终配送时间会相应延长。</p>
+					  	</div>
+					  	<div class="product-buy">
+					  		<div class="pro-num">
+					  			<a class="btn btn-min is-disabled">-</a>
+					  			<input type="text" value="1" class="num-input"/>
+					  			<a class="btn btn-add">+</a>
+					  		</div>
+					  		<div class="pro-price">
+					  			￥<span>320</span>
+					  		</div>
+					  		<div class="pro-btn">
+					  			<a class="btn btn-black addCart">
+					  				<i class="icon icon-btn-shopping-bag"></i>
+					  				<span>加入购物袋</span>
+					  			</a>
+					  		</div>
+					  	</div>
+					</div>
+				</div>
+			</article>
+			
+			
+		</section>
+		
+		<!--商品详情结束-->
+		
+		
+		<!--back-top-->
+		<div class="back-box">
+			<div class="online">
+				<a href="#">
+					<i class="icon icon-online"></i>
+					<span>在线咨询</span>
+				</a>
+			</div>
+			<div class="back-top">
+				<a href="#">
+					<i class="icon icon-back"></i>
+					<span>TOP</span>
+				</a>
+			</div>
+		</div>
+		
+		<!--footer-->
+		<div class="footer">
+			<div class="footer-container">
+				<div class="footer-top">
+					<ul>
+						<li>
+							<label>
+								<i class="icon icon-product"></i>
+							</label>
+							<span>100%官方正品保证</span>
+						</li>
+						<li>
+							<label>
+								<i class="icon icon-style"></i>
+							</label>
+							<span>支持多种支付方式</span>
+						</li>
+						<li>
+							<label>
+								<i class="icon icon-gift"></i>
+							</label>
+							<span>专享官网特惠礼遇</span>
+						</li>
+						<li>
+							<label>
+								<i class="icon icon-our"></i>
+							</label>
+							<span>
+								联系我们<br />电话400-820-6362
+							</span>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-classify">
+					<div class="footer-classify-content">
+						<h4><a href="#">彩妆</a></h4>
+						<ul>
+							<li><a href="#">唇部</a></li>
+							<li><a href="#">面部</a></li>
+							<li><a href="#">眼部</a></li>
+							<li><a href="#">甲油</a></li>
+							<li><a href="#">套装及工具</a></li>
+						</ul>
+					</div>
+					<div class="footer-classify-content">
+						<h4><a href="#">护肤</a></h4>
+						<ul>
+							<li><a href="#">按产品分类</a></li>
+							<li><a href="#">按功能分类</a></li>
+							<li><a href="#">按系列分类</a></li>
+						</ul>
+					</div>
+					<div class="footer-classify-content">
+						<h4><a href="#">香水</a></h4>
+						<ul>
+							<li><a href="#">男士香水</a></li>
+							<li><a href="#">女士香水</a></li>
+						</ul>
+					</div>
+					<div class="footer-classify-content">
+						<h4><a href="#">尊享礼盒</a></h4>
+					</div>
+					<div class="footer-classify-content">
+						<h4><a href="#">订阅电子杂志</a></h4>
+						<form action="">
+							<input type="text" name="" id="" value="" class=""/>
+							<a href="#" class="btn-ok">OK</a>
+						</form>
+						<div class="footer-contact">
+							<div class="follow-us">
+								<p>关注我们</p>
+								<ul>
+									<li>
+										<a href="#"><i class="icon icon-weibo"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon icon-weixin"></i></a>
+									</li>
+								</ul>
+							</div>
+							<div class="contact-us">
+								<p>联系我们</p>
+								<p>电话：400-820-6362</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h1 class="footer-logo">
+					<a href="#">
+						<img src="img/footer-logo.png" alt="" />
+					</a>
+				</h1>
+				<div class="footer-bottom">
+					<ul class="bottom-top">
+						<li><span>© 欧莱雅（中国）有限公司</span></li>
+						<li
+							<i class="icon icon-footo"></i>
+							<a href="#"><span>中国工商  </span></a>
+							<a href="#"><span> 沪ICP备08100043号-28&nbsp; </span></a>
+						</li>
+						<li>
+							<i class="icon icon-foott"></i>
+							<a href="#"><span>沪公网安备 31010602001529号</span></a>
+						</li>
+					</ul>
+					<div class="bottom-bot">
+						<ul>
+							<li><a href="#">Cookies政策</a></li>
+							<li><a href="#">使用条款</a></li>
+							<li><a href="#">隐私政策</a></li>
+							<li><a href="#">网站地图</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/getStyle.js" ></script>
+<script type="text/javascript" src="js/tools.js" ></script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="js/public.js" ></script>
+
+
+<script type="text/javascript">
+	//点击小图显示大图
+	$(function(){
+		$(".small-ul li").click(function(){
+			let index = $(this).index();
+			$(this).addClass("is-active").siblings().removeClass("is-active");
+			$(".main-con-sm .big-img").eq(index).addClass("now-active").siblings().removeClass("now-active");
+		})
+	})
+	
+	//图片放大镜
+	$(function(){
+		$
+	})
+	
+	
+	//口红色号左右轮播
+	$(function(){
+		$(".goods-color-btn-right").click(function(){
+			$(".goods-color-ul").animate({left:"-=43px"});
+			$(".goods-color-btn-left").show();
+		})
+		$(".goods-color-btn-left").click(function(){
+			$(".goods-color-ul").animate({left:"+=43px"});
+		})
+	})
+	
+//	点击每个口红色号li被选中
+	$(function(){
+		$(".goods-color-ul li").click(function(){
+//			var index = $(this).index();//获得当前点击标题的下标
+			$(this).addClass("is-choose").siblings().removeClass("is-choose");//给当前选项添加选中，其他移除选中
+			$(this).children("span").show();
+//			$(".favorites-aside-content .goods-tab").eq(index).show().siblings().hide();//对应下标的内容框显示，其他隐藏
+		})
+	})
+	
+	//点击显示下拉菜单右箭头旋转
+	$(function(){
+		$(".btn").toggle(
+			function () {
+			    $(this).next().show();
+				$(this).children(".dropdown-icon").children(".icon-caret").css({'transform': 'rotate(180deg)'});
+			},
+			function () {
+			    $(this).next().hide();
+				$(this).children(".dropdown-icon").children(".icon-caret").css({'transform': 'rotate(360deg)'});
+			}
+		);
+	})
+	
+	//加减
+	$(function(){
+		let val = $(".num-input").val();
+		$(".btn-add").mouseover(function(){
+			$(this).css({"background-color":"gray"})
+		})
+		$(".btn-add").mouseout(function(){
+			$(this).css({"background-color":"#fff"})
+		})
+		$(".btn-min").mouseover(function(){
+			if(val>1){
+				$(this).css({"background-color":"gray"})
+			}
+		})
+		$(".btn-min").mouseout(function(){
+			$(this).css({"background-color":"#fff"})
+		})
+		
+		$(".btn-add").click(function(){
+			val++;
+			$(".num-input").val(val);
+			$(this).prevAll("a").removeClass("is-disabled");
+		})
+		
+		$(".btn-min").click(function(){
+			if(val>1){
+				val--;
+				$(".num-input").val(val);
+			}else{
+				$(this).addClass("is-disabled");
+				$(".num-input").val(1);
+			}
+		})
+		
+	})
+	
+	
+	
+	
+</script>
